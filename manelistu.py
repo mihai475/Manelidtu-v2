@@ -410,4 +410,4 @@ async def stop(interaction: discord.Interaction):
 
 
 # Introdu aici token-ul botului tău de Discord
-bot.run("MTU1NDEzNjU5MDgxMTQwNjQ1Nw.GIQ3Qe.uwVmGHEytDFp9u3pQ6sZgDmbCB1htjKS2MJ_wk")
+bot.run(os.getenv("DISCORD_TOKEN"))
